@@ -16,7 +16,7 @@
   height: 100%;
   width: 100%;
 
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .slider .list .item::after {
@@ -123,17 +123,17 @@
   }
 
   .arrows {
-    top: 10%;
+    top: 80%;
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 400px){
 
   .slider .list .item .content h2 {
-    font-size: 30px;
+    font-size: 24px;
   }
 
-  .slider .list .item .content h2 p{
+  .slider .list .item .content p{
     font-size: 14px;
   }
 }
