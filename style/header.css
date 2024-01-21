@@ -33,3 +33,9 @@ header .menu {
   font-weight: 500;
 
 }
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
