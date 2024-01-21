@@ -113,3 +113,27 @@
   color: #000;
   
 }
+
+/* responsive */
+
+@media screen and (max-width: 678px) {
+
+  .slider .list .item .content h2{
+    font-size: 60px;
+  }
+
+  .arrows {
+    top: 10%;
+  }
+}
+
+@media screen and (max-width: 320px){
+
+  .slider .list .item .content h2 {
+    font-size: 30px;
+  }
+
+  .slider .list .item .content h2 p{
+    font-size: 14px;
+  }
+}
